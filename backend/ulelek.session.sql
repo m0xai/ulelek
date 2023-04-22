@@ -1,0 +1,10 @@
+-- CREATE TABLE IF NOT EXISTS entry(
+--     ID SERIAl PRIMARY KEY,
+--     CONTENT TEXT NOT NULL,
+--     IS_DELETED BOOLEAN NOT NULL
+-- );
+-- INSERT INTO entry(CONTENT, IS_DELETED)
+-- VALUES('Another Entry', False);
+-- DELETE FROM entry WHERE id = 7;
+SELECT *
+from entry;
